@@ -6,6 +6,7 @@ const React_useState = () => {
         <>
             <div>useState example</div>
             <div>useState Hook allows us to track state in a function component</div>
+            <br></br>
             <div>Here is a Counter component</div>
             <button type="button" onClick={() => setCount(count+1)}>Count Number: {count}</button>
         </>
